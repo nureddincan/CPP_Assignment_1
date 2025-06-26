@@ -1,15 +1,3 @@
-/****************************************************************************
-**							 SAKARYA ÜNÝVERSÝTESÝ
-**				   BÝLGÝSAYAR VE BÝLÝÞÝM BÝLÝMLERÝ FAKÜLTESÝ
-**					    BÝLGÝSAYAR MÜHENDÝSLÝÐÝ BÖLÜMÜ
-**					      PROGRAMLAMAYA GÝRÝÞÝ DERSÝ
-**	
-**				    	ÖDEV NUMARASI     : 1
-**				    	ÖÐRENCÝ ADI       : Nureddin Can ERDEÐER
-**                      ÖÐRENCÝ NUMARASI  : B231210041
-**                      DERS GRUBU        : C 
-****************************************************************************/
-
 #include <iostream>
 #include <cstdlib> // To use the rand() and srand() functions
 #include <ctime> // To use the time() function
@@ -46,7 +34,7 @@ int main() {
     srand(time(0)); // To generate random numbers
 
 	/* Let's assume that the products sold by the company are given in the string firmaurun="mouse,20,51.00,20,microphone, 
-	   89.50,mobile phone,66.40,desktop computer,45.09,laptop,96.50,…" */
+	   89.50,mobile phone,66.40,desktop computer,45.09,laptop,96.50,â€¦" */
 	string companyProducts = 
         "Mouse,20,51.00,20,"
         "Microphone,20,89.50,20,"
